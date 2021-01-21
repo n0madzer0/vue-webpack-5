@@ -1,0 +1,20 @@
+{
+    "ignorePatterns": ["dist", "node_modules"],
+    "rules": {
+    },
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "extends": ["plugin:vue/essential", "eslint:recommended", "prettier"],
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+      "ecmaVersion": 11,
+      "sourceType": "module"
+    },
+    "plugins": ["prettier"],
+    "settings": { "import/resolver": "webpack" }
+  }
